@@ -45,9 +45,11 @@ cd ~/.vim/bundle && git clone https://github.com/timmyjose-projects/kryptonite.v
 ## Screenshots
 
 Common Lisp:
+
 ![Common Lisp](https://github.com/timmyjose-projects/screenshots/blob/f4b3177b4bf765cc646332d6e71a8136b1daf8ba/kryptonite.vim/cl.png)
 
 Rust:
+
 ![Rust](https://github.com/timmyjose-projects/screenshots/blob/f4b3177b4bf765cc646332d6e71a8136b1daf8ba/kryptonite.vim/rust.png)
 
 C++:
