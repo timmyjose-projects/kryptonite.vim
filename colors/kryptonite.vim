@@ -117,6 +117,15 @@ exe 'hi rubyNumber guifg='s:const
 " Python Highlighting
 exe 'hi pythonBuiltinFunc guifg='s:builtin
 
+" Assembly Highlighting
+exe 'hi asmIdentifier guifg='s:fg
+exe 'hi asmLabel guifg='s:func
+exe 'hi asmType guifg='s:builtin
+
+" Fortran Highlighting
+exe 'hi fortranType guifg='s:builtin
+exe 'hi fortranAttribute guifg='s:builtin
+
 " Go Highlighting
 exe 'hi goBuiltins guifg='s:builtin
 let g:go_highlight_array_whitespace_error = 1
