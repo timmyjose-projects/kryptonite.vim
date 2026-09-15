@@ -85,6 +85,17 @@ exe 'hi Todo guifg='s:fg2'  gui=inverse,bold'
 exe 'hi Type guifg='s:type
 exe 'hi Underlined   gui=underline'
 
+" CoC and language-server highlighting
+" Keep virtual inlay hints subtle without introducing block backgrounds.
+exe 'hi SignColumn guifg='s:fg2' guibg='s:bg
+exe 'hi CocInlayHint guifg='s:comment' guibg='s:bg' gui=italic'
+exe 'hi CocInlayHintParameter guifg='s:comment' guibg='s:bg' gui=italic'
+exe 'hi CocInlayHintType guifg='s:comment' guibg='s:bg' gui=italic'
+
+" Give semantic type tokens a readable foreground on the normal background.
+exe 'hi CocSemTypeType guifg='s:builtin' guibg='s:bg
+exe 'hi CocSemTypeStruct guifg='s:builtin' guibg='s:bg
+
 " Neovim Terminal Mode
 let g:terminal_color_0 = s:bg
 let g:terminal_color_1 = s:warning
